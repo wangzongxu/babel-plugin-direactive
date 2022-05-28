@@ -1,0 +1,10 @@
+/.idea
+/tmp
+/node_modules
+/coverage
+/lib
+/*.log
+/*.log.*
+/yarn.lock
+/pnpm-lock.yaml
+/package-lock.json

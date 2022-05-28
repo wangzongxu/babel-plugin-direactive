@@ -1,0 +1,2 @@
+import React from 'react';
+const node = foo ? /*#__PURE__*/React.createElement("div", null, bar === 1 ? /*#__PURE__*/React.createElement("p", null, 'baz0' ? /*#__PURE__*/React.createElement("i", null, "baz0") : null, 'baz1' ? /*#__PURE__*/React.createElement("i", null, "baz1") : baz2 ? /*#__PURE__*/React.createElement("i", null, "baz2") : baz3 ? /*#__PURE__*/React.createElement("i", null, "baz3") : null, 'baz4' ? /*#__PURE__*/React.createElement("i", null, "baz4") : null) : foo2 ? /*#__PURE__*/React.createElement("p", null, "foo2") : null) : null;
