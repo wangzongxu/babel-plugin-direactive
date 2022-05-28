@@ -121,9 +121,9 @@ All directive attribute values are parsed as expression, except for ```r-for``` 
 #### ```r-else-if/r-else```
 
 ```jsx
-<div r-if="foo"/>
-<div r-else-if="bar"/>
-<div r-else="baz"/>
+<div r-if="foo">foo</div>
+<div r-else-if="bar">bar</div>
+<div r-else>baz</div>
 ```
 
 #### ```r-for/r-key```
@@ -348,7 +348,7 @@ The plugin performs the following transformations at compile time.
 ```jsx
 <div r-if="foo">foo</div>
 <div r-else-if="bar">bar</div>
-<div r-else="baz">baz</div>
+<div r-else>baz</div>
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
