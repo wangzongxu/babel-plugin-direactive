@@ -1,4 +1,4 @@
-# ☝️babel-plugin-direactive
+<h1>☝️babel-plugin-di<span style="color:rgb(8, 126, 164)">react</span>ive</h1>
 
 Use directives in React like Vue.
 
